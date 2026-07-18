@@ -84,24 +84,30 @@ pip install -r requirements.txt
 
 ## Project Structure
 
+## Project Structure
+
 ```text
 Automated-VQA-Dataset-Generation/
 │
 ├── README.md
+├── requirements.txt
+│
 ├── report/
 │   └── Pipeline_Report.pdf
 │
 ├── images/
-│   └── sample_images
+│   ├── arc_0000008.jpg
+│   ├── arc_0000009.jpg
+│   └── ...
 │
 ├── output/
-│   ├── vqa_dataset.jsonl
+│   ├── sample_vqa_dataset.jsonl
 │   └── progress.json
 │
 └── src/
+    ├── image_download.py
     └── vqa_generation_pipeline.py
 ```
-
 
 
 
